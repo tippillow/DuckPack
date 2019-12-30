@@ -9,7 +9,7 @@ body {
 
   background-image: url("img/3.png"), url("img/4.png");
   background-repeat: no-repeat, no-repeat;
-  background-position: -25px 630px, 1090px 900px;
+  background-position: -25px 630px, 100% 900px;
 }
 
 a {
@@ -43,7 +43,7 @@ a {
   color: #6d6d6d;
   background-image: url("img/1.png"), url("img/2.png"), url("img/headerbg.png");
   background-repeat: no-repeat, no-repeat, repeat;
-  background-position: 0px 50px, 1090px 100px, 0px 0px;
+  background-position: 0px 50px, 100% 100px, 0px 0px;
   margin-bottom: 65px;
 }
 
@@ -75,9 +75,8 @@ a {
 }
 
 .btn-burger-menu {
-  position: absolute;
-  left: 20px;
-  top: -10px;
+  position: relative;
+  top: -27px;
   display: inline-block;
   border-radius: 50%;
   width: 40px;
@@ -94,8 +93,9 @@ a {
 }
 
 .btn-burger-menu-lines {
+  position: absolute;
   top: 43px;
-  left: 1092px;
+  left: 20px;
   transform: translate(-50%, -50%);
 }
 
@@ -212,7 +212,7 @@ a {
   text-align: center;
   background-image: url("img/5.png"), url("img/6.png"), url("img/7.png"), url("img/headerbg.png");
   background-repeat: no-repeat, no-repeat, no-repeat, repeat;
-  background-position: 0px 20px, 850px 45px, 1050px 20px,0px 0px;
+  background-position: 0px 20px, 85% 45px, 100% 20px,0px 0px;
   margin-bottom: 80px;
 }
 
